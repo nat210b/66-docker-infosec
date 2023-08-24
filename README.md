@@ -7,3 +7,6 @@
 - install setup config
 - set name port etc.
 - set env
+## Teachstack
+ - docker ps
+ - docker compose "docker-compose"
