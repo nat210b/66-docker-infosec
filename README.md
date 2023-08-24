@@ -8,5 +8,6 @@
 - set name port etc.
 - set env
 ## Teachstack
+ - git -v
  - docker ps
  - docker compose "docker-compose"
