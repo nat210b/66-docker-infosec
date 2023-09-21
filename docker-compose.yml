@@ -22,10 +22,10 @@ services:
       - PGADMIN_DEFAULT_EMAIL=${PGADMIN_DEFAULT_EMAIL}
       - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_DEFAULT_PASSWORD}
   strapi:
-    image: naskio/strapi:latest 
+    image: wannachol/myapp1.0:latest
     container_name: MyApp
     ports:
-      - 1337:1337
+      - 3000:3000
     environment:
       - DATABASE_HOST=${DATABASE_HOST}
       - DATABASE_NAME=${DATABASE_NAME}
